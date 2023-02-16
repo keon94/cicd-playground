@@ -9,7 +9,7 @@ trigger:
 - main
 
 jobs:
--  job: "job-1"
+-  job: "job_1"
    pool:
     vmImage: ubuntu-latest
    steps:
@@ -20,7 +20,7 @@ jobs:
       echo Add other tasks to build, test, and deploy your project.
       echo See https://aka.ms/yaml
      displayName: 'Second-step'
--  job: "job-2"
+-  job: "job_2"
    pool:
     vmImage: ubuntu-latest
    steps:
