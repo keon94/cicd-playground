@@ -20,6 +20,10 @@ jobs:
       echo Add other tasks to build, test, and deploy your project.
       echo See https://aka.ms/yaml
      displayName: 'Second-step'
+   - script: |
+      echo 'Doing complex things...'
+      sleep 180s
+     displayName: 'Third-step_long'
 -  job: "job_2"
    pool:
     vmImage: ubuntu-latest
